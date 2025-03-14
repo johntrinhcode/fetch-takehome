@@ -208,7 +208,8 @@ export function SearchContextProvider({ children }: PropsWithChildren) {
       setLocationFilterEnabled,
     }),
     [
-      query,
+      query.data,
+      query.isPending,
       page,
       pageSize,
       maxPage,
