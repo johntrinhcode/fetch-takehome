@@ -6,7 +6,7 @@ My name is John Trinh, and this is my takehome assessment for the FE engineer ro
 
 # Live Preview
 
-<TODO>
+https://jt-fetch-takehome.netlify.app/
 
 # Local Setup
 
@@ -32,6 +32,8 @@ The web application is a straight-forward SPA page with [Vite](https://vite.dev/
 Filtering state is managed by the `SearchContext` which manages API calls to the `POST /dog/*` endpoints to retrieve dog data.
 
 Match state is managed by the `MatchContext` which keeps a track of favorited dogs during the search process and later used by the matching process to generate matches based on favorites.
+
+Also, I put some effort into making the web application responsive for mobile screens.
 
 # Possible Improvements
 
